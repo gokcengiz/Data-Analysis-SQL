@@ -8,7 +8,7 @@
 
 * courses.csv: contains the information about the courses
 * instructors.csv: contains the information about the instructors
-* 
+
 #### The dataset contains 10 columns in courses.csv
 
 -id: unique id of the course [int]
