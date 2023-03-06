@@ -51,4 +51,4 @@ _class: class of the instructor [string]
 
 -initials: initials of the instructor [string]
 
--url: url of the instructor [string]
+-url: url of the instructor [string] 
