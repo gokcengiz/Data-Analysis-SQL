@@ -29,7 +29,7 @@ LIMIT 10;
 SELECT avg(num_published_lectures) FROM courses;
 
 
----Kursları eğitmenleri ile kurslarını listeleyelim
+---Eğitmenler ile kurslarını listeleyelim
 SELECT c.title AS course, i.title AS instructor
 FROM courses c
 INNER JOIN instructors i
@@ -79,3 +79,13 @@ INNER JOIN instructors i
 ON i.id = c.instructors_id
 ORDER BY num_reviews DESC
 LIMIT 1;
+
+---Toplam kaç kurs ve eğitmen var?
+SELECT COUNT(DISTINCT instructors_id) AS total_instructors , COUNT(id) AS total_courses
+FROM courses;
+
+---En fazla değerlendirilen ve yüksek değer alan veri analizi kursları
+SELECT title,num_reviews,rating FROM courses
+WHERE title ILIKE '%Data Analysis%' AND rating > 4.5
+ORDER BY num_reviews DESC
+LIMIT 5;
