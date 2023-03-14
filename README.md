@@ -7,7 +7,7 @@
 The project relies on the Udemy Courses Data 2023 provided by Kaggle. It answers five simple questions to show my proficiency in SQL for data analysis.
 
 * How many instructors and courses are there in total?
-* What are the 10 most popular courses? (Courses with the highest number of revievs and above average ratings)
+* What are the 10 most popular courses? (Courses with the highest number of reviews and above average ratings)
 * What are the 10 most popular instructors? (Most reviewed)
 * What are the most reviewed instructor's courses? (Sorted by rating)
 * What are the 5 most popular data analysis courses? (Most reviewed and highly rated)
